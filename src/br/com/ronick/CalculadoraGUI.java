@@ -7,7 +7,7 @@ public class CalculadoraGUI extends javax.swing.JFrame {
     int doisPonto = 0;
 
     public String imprimeTela(String numero) {
-        if (this.numero == "0") {
+        if ("0".equals(this.numero)) {
             this.numero = numero;
             tTela.setText(this.numero);
         } else {
@@ -469,10 +469,8 @@ public class CalculadoraGUI extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new CalculadoraGUI().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new CalculadoraGUI().setVisible(true);
         });
     }
 
