@@ -79,16 +79,16 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="bBotaoC" pref="50" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="bBotaoC" max="32767" attributes="0"/>
                               <Component id="bBotao7" max="32767" attributes="0"/>
                               <Component id="bBotao4" max="32767" attributes="0"/>
-                              <Component id="bBotao1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bBotao1" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="bBotaoDel" min="-2" pref="50" max="-2" attributes="0"/>
@@ -120,28 +120,28 @@
                           <Component id="bBotaoPonto" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="bBotaoRaiz" pref="0" max="32767" attributes="0"/>
-                      <Component id="bBotaoDivisao" alignment="0" max="32767" attributes="0"/>
+                      <Component id="bBotaoSoma" alignment="1" max="32767" attributes="0"/>
+                      <Component id="bBotaoEnter" alignment="0" pref="0" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bBotaoDivisao" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                              <Component id="bBotaoRaiz" min="-2" pref="67" max="-2" attributes="0"/>
                               <Component id="bBotaoMult" min="-2" pref="67" max="-2" attributes="0"/>
                               <Component id="bBotaoSubtracao" min="-2" pref="67" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="bBotaoSoma" alignment="1" max="32767" attributes="0"/>
-                      <Component id="bBotaoEnter" alignment="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -164,21 +164,21 @@
                           <Component id="bBotaoMult" min="-2" pref="32" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="bBotao4" pref="50" max="32767" attributes="0"/>
-                              <Component id="bBotao5" max="32767" attributes="0"/>
-                              <Component id="bBotao6" max="32767" attributes="0"/>
+                              <Component id="bBotao4" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="bBotao5" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="bBotao6" min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="bBotao3" max="32767" attributes="0"/>
-                              <Component id="bBotao2" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bBotao3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="bBotao2" min="-2" pref="50" max="-2" attributes="0"/>
                               <Component id="bBotao1" min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="bBotao0" max="32767" attributes="0"/>
                               <Component id="bBotaoPonto" min="-2" pref="50" max="-2" attributes="0"/>
@@ -192,7 +192,7 @@
                           <Component id="bBotaoEnter" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
